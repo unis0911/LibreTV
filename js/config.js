@@ -13,8 +13,8 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    name: 'LongtTV',
+    url: 'https://libretv-e45.pages.dev/',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -24,8 +24,12 @@ const SITE_CONFIG = {
 const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
+        name: 'DYTT',
         detail: 'http://caiji.dyttzyapi.com', 
+    },
+    myzy: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: '猫眼资源'
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -39,19 +43,10 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
-    },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv', 
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
@@ -61,10 +56,6 @@ const API_SITES = {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
     },
-    wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
-    }, 
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
@@ -90,30 +81,11 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
-    },
-    baidu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
-    },
-    wujin: {
-        api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源'
-    },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
-    ikun: {
-        api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
-    },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
