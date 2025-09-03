@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
-    MZ: {
-        api: 'https://mozhuazy.com/api.php/provide/vod/?ac=list',
-        name: 'MZ',
+    MY: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: 'MY',
     }
 };
 
