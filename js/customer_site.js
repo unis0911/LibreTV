@@ -1,6 +1,6 @@
 const CUSTOMER_SITES = {
     MZ: {
-        api: 'https://mzm3u8jx.com/aliplayer.html?url=',
+        api: 'https://mozhuazy.com/api.php/provide/vod/?ac=list',
         name: 'MZ',
     }
 };
