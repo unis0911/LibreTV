@@ -25,6 +25,8 @@ const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: 'DYTT',
+        detail: 'http://caiji.dyttzyapi.com', 
+    },
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
