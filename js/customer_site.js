@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
-    dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: 'DYTT',
+    MZ: {
+        api: 'https://mzm3u8jx.com/aliplayer.html?url=',
+        name: 'MZ',
     }
 };
 
