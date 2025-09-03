@@ -3,10 +3,6 @@ const CUSTOMER_SITES = {
         api: 'https://api.maoyanapi.top/api.php/provide/vod',
         name: 'MY',
     }
-    mozhua: {
-        api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: 'MZ',
-    }
 };
 
 // 调用全局方法合并
