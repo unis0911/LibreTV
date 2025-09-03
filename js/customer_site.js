@@ -1,7 +1,15 @@
 const CUSTOMER_SITES = {
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七资源',
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: 'DYTT',
+    }
+    mym3u8: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: 'MY',
+    }
+    MZ: {
+        api: 'https://mozhuazy.com/api.php/provide/vod/?ac=list',
+        name: 'MZ',
     }
 };
 
