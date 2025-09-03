@@ -23,8 +23,8 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     testSource: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: 'DYTT',
+        api: 'https://mozhuazy.com/api.php/provide/vod/?ac=list',
+        name: 'MZ',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
